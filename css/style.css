@@ -230,7 +230,7 @@ nav ul li:last-child {
 }
 
 .section-three-main-title {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .section-specials {
@@ -276,8 +276,7 @@ nav ul li:last-child {
 }
 
 .section-four-main-title {
-  padding-bottom: 50px;
-  margin-top: 0;
+  margin-bottom: 50px;
 }
 .main-page-section-four {
   background-color: #f5f4fa;
@@ -334,15 +333,15 @@ footer {
 }
 
 address {
-  padding-top: 20px;
+  margin-top: 20px;
 }
 
 address li {
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
 
 address li:last-child {
-  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .logo-last {
@@ -395,7 +394,7 @@ address li:last-child {
 .buttons {
   display: flex;
   justify-content: center;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .buttons li {
@@ -416,10 +415,12 @@ address li:last-child {
   padding-bottom: 20px;
 }
 
-.portfolio-images li {
+.portfolio-images div {
   background: #ffffff;
   box-sizing: border-box;
   border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
   /*box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1), 0px 1px 1px rgba(0, 0, 0, 0.1),0px 1px 1px rgba(0, 0, 0, 0.1);*/
 }
 
